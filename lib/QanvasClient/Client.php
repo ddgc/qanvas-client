@@ -45,9 +45,9 @@ class Client
     }
 
     /**
-     * [downloadDocument description]
-     * @param  [type] $token [description]
-     * @return [type]        [description]
+     * Downloads the document
+     * @param  string $token The token provided by processDocument
+     * @return string        The document in string format
      */
     public function downloadDocument($token)
     {

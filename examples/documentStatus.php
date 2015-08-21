@@ -12,7 +12,7 @@ require_once('../lib/QanvasClient/Client.php');
 $client = new QanvasClient\Client('b79a708ac2c9979b36e0465c04041d394035956db0377f9ca901ab7eb6303df3', 'http://localhost/qanvas-prototype/Master/web/app_dev.php');
 
 //Sends the token to check if the document is done, you'll get back an array or an error if one is found.
-$result = $client->checkDocumentStatus('4481acf20dd5f475d78fe2d75a490aa3');
+$result = $client->checkDocumentStatus('24cc9989646b804986b272ad9f060bad');
 
 //For example purposes, die and show the variables in $result
 die(var_dump($result));

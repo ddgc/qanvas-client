@@ -1,0 +1,1 @@
+DO NOT USE THE NAME CHART IN A MULTIDIMENSIONAL ARRAY e.g.: ```array (test => array('chart' => "something"))```. Your document will not process if you do this! Charts is reserved for highcharts.
